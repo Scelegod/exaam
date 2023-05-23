@@ -47,12 +47,39 @@
     width: 12px;
     height: 7.41px;
 }
+.firstScreen__img{
+    width: 706px;
+    height: 516px;
+}
+.all__block__24hoursIcons{
+    width: 69px;
+    height: 69px;
+}
+.all__block__calendarIcons{
+    width: 68px;
+    height: 68px;
+}
+.all__block__insuranceIcons{
+    width: 76px;
+    height: 74px;
+}
+.all__block__labIcons{
+    width: 73px;
+    height: 73px;
+}
+.all__block__butterflyIcons{
+    width: 96px;
+    height: 96px;
+}
+.conditions__all__service__phone{
+    width: 264px;
+    height: 474px;
+}
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 body{
     background-color: #ffffff;
     /* background-color: #4e4d53a1; */
-    margin: auto 138px;
     
     font-size: 18px;
 }
@@ -70,6 +97,8 @@ body{
     height: 80px;
     
     background-color: #ffffff;
+
+    margin: auto 138px;
 }
 
 .header__menu{
@@ -107,6 +136,8 @@ body{
     background-color: #ffffff;
     box-shadow: 2px 2px 5px rgba(20, 29, 61, 0.15), -2px -2px 5px rgba(20, 29, 61, 0.15);
     border-radius: 30px;
+    
+    margin: 30px 138px 0;
 }
 
 .firstScreen__all{
@@ -147,10 +178,6 @@ body{
     border-radius: 6px;
 }
 
-.firstScreen__img{
-    width: 706px;
-    height: 516px;
-}
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
 /* ---------------------------------------------------О страховании--------------------------------------------------------------------- */
@@ -163,13 +190,13 @@ body{
 
 .insurance__all{
     display: flex;
-    justify-content: center;
-    gap: 35px;
-
+    justify-content: space-evenly;
+    /* gap: 35px; */
+    
     margin-top: 49px;
 }
 
-.insurance__heading{
+.insurance__heading, .conditions__heading{
     text-align: center;
     font-size: 2.7em;
     font-family: 'SF Pro Display Medium';
@@ -179,16 +206,133 @@ body{
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    gap: 4px;
 
     width: 165px;
     height: 216px;
     background-color: #DDD0A4;
+    border-radius: 20px 20px 20px 20px;
+
+    font-size: 0.8em;
+    font-family: 'SF Pro Display Semibold';
+}
+
+.insurance__all__block__note{
+    color: #ffffff;
 }
 
 .all__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    
     width: 165px;
     height: 190px;
     background-color: #ffffff;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 20px;
+}
+
+.all__block__note{
+    text-align: center;
+    font-family: 'SF Pro Display Light'
+}
+
+.all__block__note__span{
+    font-family: 'SF Pro Display Medium';
 }
 /* ------------------------------------------------------------------------------------------------------------------------ */
 
+/* ----------------------------------------------------Условия-------------------------------------------------------------------- */
+.conditions{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 109px;
+}
+
+.conditions__all{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conditions__all__chapterOne{
+    display: flex;
+    align-items: center;
+    gap: 77px;
+}
+
+.conditions__all__doctors{
+    display: flex;
+    flex-direction: column;
+}
+
+.conditions__all__doctors__heading, .conditions__all__protection__heading{
+    font-size: 3.6em;
+    font-family: 'SF Pro Display Medium';
+}
+
+.conditions__all__doctors__note{
+    font-size: 1.3em;
+    width: 344px;
+}
+
+.all__doctors__note__span{
+    font-family: 'SF Pro Display Semibold';
+}
+
+.conditions__all__chapterTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conditions__all__service{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-right: 300px;
+}
+
+.conditions__all__service__heading{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    
+    font-size: 1.6em;
+    font-family: 'SF Pro Display Semibold';
+}
+
+.conditions__all__service__note{
+    font-size: 1.3em;
+    width: 366px;
+}
+
+.conditions__all__service__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.conditions__all__service__line{
+    position: absolute;
+    bottom: 0;
+
+    width: 351px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.conditions__all__chapterThree{
+    display: flex;
+    align-items: center;
+    gap: 94px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
