@@ -1,0 +1,1034 @@
+@import url(./resetCss.css);
+/* ------------------------------------------------------------Шрифты------------------------------------------------------------ */
+@font-face {
+    font-family: 'SF Pro Display Black';
+    src: url(./../assets/fonts/SF-Pro-Display-Black.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url(./../assets/fonts/SF-Pro-Display-Bold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Light';
+    src: url(./../assets/fonts/SF-Pro-Display-Light.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Medium';
+    src: url(./../assets/fonts/SF-Pro-Display-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url(./../assets/fonts/SF-Pro-Display-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'SF Pro Display Semibold';
+    src: url(./../assets/fonts/SF-Pro-Display-Semibold.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------Размер Иконок------------------------------------------------------------ */
+.accountIcons{
+    height: 34px;
+    width: 34px;
+}
+.dropDownIcons{
+    width: 12px;
+    height: 7.41px;
+}
+.firstScreen__img{
+    width: 706px;
+    height: 516px;
+}
+.all__block__24hoursIcons{
+    width: 69px;
+    height: 69px;
+}
+.all__block__calendarIcons{
+    width: 68px;
+    height: 68px;
+}
+.all__block__insuranceIcons{
+    width: 76px;
+    height: 74px;
+}
+.all__block__labIcons{
+    width: 73px;
+    height: 73px;
+}
+.all__block__butterflyIcons{
+    width: 96px;
+    height: 96px;
+}
+.conditions__all__service__phone{
+    width: 264px;
+    height: 474px;
+}
+.insuranceCase__case__number__phoneIcons{
+    width: 58px;
+    height: 58px;
+}
+.insuranceCase__case__number__documentIcons{
+    width: 62px;
+    height: 62px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+body{
+    background-color: #ffffff;
+    /* background-color: #4e4d53a1; */
+    
+    font-size: 18px;
+}
+
+/* ------------------------------------------------------------Header------------------------------------------------------------ */
+.header, .header__menu, .header__profile {
+    display: flex;
+    align-items: center;
+    
+}
+.header{
+    justify-content: space-between;
+    
+    font-family: 'SF Pro Display Light';
+    height: 80px;
+    
+    background-color: #ffffff;
+
+    margin: auto 138px;
+}
+
+.header__menu{
+    gap: 59px;
+    
+    line-height: 21px;
+}
+
+.header__menu__item{
+    display: flex;
+    gap: 11px;
+    align-items: baseline;
+    
+    color: #000000;
+}
+
+.menu__item__city, .header__profile{
+    font-family: 'SF Pro Display Medium';
+}
+
+.header__profile{
+    color: #0D1C41;
+    gap: 12px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------FirtsScreen------------------------------------------------------------ */
+.firtsScreen{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    height: 500px;
+
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px rgba(20, 29, 61, 0.15), -2px -2px 5px rgba(20, 29, 61, 0.15);
+    border-radius: 30px;
+    
+    margin: 30px 138px 0;
+}
+
+.firstScreen__all{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    padding: 124px 0 64px 98px;
+
+    font-family: 'SF Pro Display Regular';
+}
+
+.firstScreen__all__heading{
+    font-size: 2em;
+    color: #0D1C41;
+}
+
+.all__heading__span{
+    text-transform: uppercase;
+    font-family: 'SF Pro Display Semibold';
+}
+
+.firstScreen__all__note{
+    color: #939CA6;
+    font-size: 0.9em;
+    width: 500px;
+}
+
+.firstScreen__all__btn{
+    margin-top: 68px;
+    padding: 20px 75px;
+    width: 265px;
+
+    text-transform: uppercase;
+
+    border: 1px solid #4A607A;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* ---------------------------------------------------О страховании--------------------------------------------------------------------- */
+.insurance{
+    margin-top: 108px;
+    margin: 108px 100px 0;
+    
+    height: 322px;
+}
+
+.insurance__all{
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 35px; */
+    
+    margin-top: 49px;
+}
+
+.insurance__heading, .conditions__heading{
+    text-align: center;
+    font-size: 2.7em;
+    font-family: 'SF Pro Display Medium';
+}
+
+.insurance__all__block{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 4px;
+
+    width: 165px;
+    height: 216px;
+    background-color: #DDD0A4;
+    border-radius: 20px 20px 20px 20px;
+
+    font-size: 0.8em;
+    font-family: 'SF Pro Display Semibold';
+}
+
+.insurance__all__block__note{
+    color: #ffffff;
+}
+
+.all__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    
+    width: 165px;
+    height: 190px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 20px;
+}
+
+.all__block__note{
+    text-align: center;
+    font-family: 'SF Pro Display Light'
+}
+
+.all__block__note__span{
+    font-family: 'SF Pro Display Medium';
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* ----------------------------------------------------Условия-------------------------------------------------------------------- */
+.conditions{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 109px;
+}
+
+.conditions__all{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conditions__all__chapterOne{
+    display: flex;
+    align-items: center;
+    gap: 77px;
+}
+
+.conditions__all__doctors{
+    display: flex;
+    flex-direction: column;
+}
+
+.conditions__all__doctors__heading, .conditions__all__protection__heading{
+    font-size: 3.6em;
+    font-family: 'SF Pro Display Medium';
+}
+
+.conditions__all__doctors__note{
+    font-size: 1.3em;
+    width: 344px;
+}
+
+.all__doctors__note__span{
+    font-family: 'SF Pro Display Semibold';
+}
+
+.conditions__all__chapterTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conditions__all__service{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-right: 300px;
+}
+
+.conditions__all__service__heading{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    
+    font-size: 1.6em;
+    font-family: 'SF Pro Display Semibold';
+}
+
+.conditions__all__service__note{
+    font-size: 1.3em;
+    width: 366px;
+}
+
+.conditions__all__service__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+}
+
+.conditions__all__service__line{
+    position: absolute;
+    bottom: 0;
+
+    width: 351px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.conditions__all__chapterThree{
+    display: flex;
+    align-items: center;
+    gap: 94px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* ----------------------------------------------pocket-------------------------------------------------------------------------- */
+/* --------------------------------------У нас есть 2 пакета услуг--------------------------------------------------- */
+
+.predlogenia
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.predlogenia--block2
+{
+    background: #A89060;
+}
+.predlogenia--block
+{
+    background: #4A607A;   
+}
+.predlogenia--block, .predlogenia--block2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* неактивные карточки */
+    
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 10px;
+    width: 365px;
+    height: 169px;
+}
+
+.predlogenia--zagolovok
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    padding-bottom: 48px;
+
+    color: #000000;
+    text-align: center;
+}
+
+.predlogenia--column
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.predlogenia--Zagolovki
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.predlogenia--yslygi
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.predlogenia--text
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000000;
+}
+.pod--yslygi--text2
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    padding-bottom: 10px;
+    color: #000000;
+}
+.pod--yslygi--text3
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+}
+.flex--line--yslygi
+{
+    display: flex;
+    padding: 20px;
+}
+.line--flex
+{
+    padding-right: 20px;
+}
+.pod--yslygi
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.pod--yslygi--img
+{
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.predlogenia--img
+{
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.img--galochka
+{
+    padding: 20px;
+}
+.img--min
+{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.img--min2
+{
+    padding-left: 20px;
+    padding-top: 430px;
+}
+.btn--download--block
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* color/body */
+
+    background: #FFFFFF;
+    /* color/2 */
+
+    border: 1px solid #4A607A;
+    /* norm */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+    width: 365px;
+    height: 59px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.download--img
+{
+    padding-left: 10px;
+}
+.price--block
+{
+    padding-top: 50px;
+}
+.price--text
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.price-flex-block
+{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn--price--block
+{
+    padding-top: 50px;
+}
+.btn--price
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 165px;
+    height: 59px;
+    /* color/body */
+
+    background: #FFFFFF;
+    /* color/2 */
+
+    border: 1px solid #4A607A;
+    /* norm */
+
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+}
+.price--text2
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    
+    /* text/error */
+    
+    color: #DC0000;
+}
+.price--text3
+{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    /* text/error */
+    
+    color: #DC0000;
+}
+
+
+.pocket{
+    /* margin: auto 138px; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pocket__heading{
+    font-size: 2.7em;
+    font-family: 'SF Pro Display Medium';
+}
+
+.pocket__offer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* ----------------------------------------------questions-------------------------------------------------------------------------- */
+.questoins{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.questoins__heading, .insuranceCase__heading, .presentation__heading{
+    font-size: 2.7em;
+    font-family: 'SF Pro Display Medium';
+}
+
+.questoins__accordion{
+    margin-top: 49px;
+    width: 765px;
+}
+
+.accordion__tab__link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 31px;
+
+    padding: 20px 55px 20px 33px;
+
+    
+}
+
+.accordion__tab__link__line{
+    width: 35px;
+    height: 1px;
+    border: 1px solid black;
+}
+
+.accordion__tab__link__quest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.accordion__tab__link a{
+    color: #000000;
+    font-family: 'SF Pro Display Regular';
+}
+
+.accordion__tab__text{
+    padding: 29px 0 29px 99px;
+    font-family: 'SF Pro Display Light';
+    font-size: 0.9em;
+    width: 765px;
+}
+
+.accordion__tab:not(.active) .accordion__tab__text{
+    display: none;
+}
+
+.accordion__tab.active .accordion__tab__link{
+    box-shadow: 2px 2px 5px rgba(20, 29, 61, 0.15), -2px -2px 5px rgba(20, 29, 61, 0.15);
+    border-radius: 10px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* ----------------------------------------------------insuranceCase-------------------------------------------------------------------- */
+.insuranceCase{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 109px;
+}
+
+.insuranceCase__heading, .presentation__heading{
+    text-align: center;
+}
+
+.insuranceCase__case{
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+
+    position: relative;
+}
+
+.insuranceCase__case__number, .insuranceCase__case__document, .insuranceCase__case__question, .insuranceCase__case__archive{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    width: 180px;
+    height: 180px;
+
+    background: #FFFFFF;
+    border: 1px solid #DDD0A4;
+    box-shadow: -2px 7px 18px -5px rgba(48, 45, 38, 0.3);
+    border-radius: 20px;
+
+    font-family: 'SF Pro Display Medium';
+    
+}
+
+.insuranceCase__case__number__note{
+    text-align: center;
+}
+
+.insuranceCase__case__tab__text, .insuranceCase__case__tab__note, .insuranceCase__case__tab__question, .insuranceCase__case__tab__archive{
+    display: none;
+}
+
+.insuranceCase__case__tab__text, .insuranceCase__case__tab__question{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    height: 166px;
+
+    font-size: 0.8em;    
+
+    position: absolute;
+
+    margin-top: 55px;
+}
+
+/* .insuranceCase__case__tab__question{
+    margin-top: 55px;
+} */
+
+.tab__text{
+    font-family: 'SF Pro Display Medium';
+}
+.tab__number{
+    font-size: 1.4em;
+    font-family: 'SF Pro Display Light';
+}
+
+.insuranceCase__case__tab__note{
+    margin-top: 81px;
+
+    /* display: flex; */
+    flex-direction: row;
+    gap: 65px;
+
+    font-size: 0.8em;
+
+    position: absolute;
+    left: 20px;
+    background-color: #ffffff;
+}
+
+.tab__statement ul li a{
+    text-decoration: underline;
+    color: #A89060;
+}
+
+.tab__statement, .tab__document{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 360px;
+
+    font-family: 'SF Pro Display Regular';
+}
+
+.tab__document ul li, .tab__statement ul li, .insuranceCase__case__tab__question ul li{
+    list-style: disc;
+    padding: 5px 0;
+    margin-left: 20px;
+}
+
+.insuranceCase__case__tab__archive{
+    margin-top: 123px;
+
+    /* display: flex; */
+    flex-direction: row;
+    gap: 24px;
+    
+    padding: 18px 32px;
+    width: 313px;
+
+    border: 1px solid #4A607A;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+
+    font-size: 0.9em;
+    text-transform: uppercase;
+
+    position: absolute;
+    right: 20px;
+}
+
+.tab__phon{
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 13px
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+/* -----------------------------------------------------presentation------------------------------------------------------------------- */
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 300px;
+}
+
+.presentation__btn{
+    margin-top: 49px;
+    padding: 20px 80px;
+    width: 300px;
+
+    text-transform: uppercase;
+
+    border: 1px solid #4A607A;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ----------------------------------------------------Вход\Регистрация---------------------------------------------------- */
+.header-text
+{
+    margin-top: 108px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.header-big-font
+{
+    margin-bottom: 10px;
+    width: 366px;
+    height: 57px;
+    font-family: 'SF Pro Display Semibold';
+    font-size: 44px;
+    text-align: center;
+    color: #000000;
+
+}
+.header-small-font
+{
+    margin-bottom: 60px;
+    width: 444px;
+    height: 42px;
+    font-family: 'SF Pro Display Small';
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #0D1C41;
+}
+
+
+.login-block
+{
+    gap: 138px;
+    justify-content: center;
+    align-items: center;
+    margin: 60px 138px 0px;
+    display:flex;
+    background-color: #ffff;
+}
+.login
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    background-image: url(/assets/img/login1.svg);
+}
+.register-form
+{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 435px;
+    height: 637px; 
+}
+input {
+    outline: none;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    box-shadow: 2px 2px 5px rgba(20, 29, 61, 0.15), -2px -2px 5px rgba(20, 29, 61, 0.15);
+    border-radius: 10px;
+  }
+hr 
+{
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+  
+button 
+{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  .clearbtn {
+    padding: 14px 20px;
+    color: black;
+    background-color: #ffffff;
+  }
+  
+  .clearbtn, .nextbtn {
+    float: left;
+    width: 50%;
+  }
+
+  .nextbtn
+  {
+    width: 165px;
+    height: 59px;
+    margin-left:10 ;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid #4A607A;
+    box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+  }
+  .nextbtn:hover
+  {
+    background-color: #e9e9e9;
+  }
+  .clearbtn
+  {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .login {
+    width: 435px;
+    height: 637px;
+    padding: 35px;
+  }
+  .clearfix
+  {
+    width: 435px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  b
+  {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    text-align: center;
+  }
+  
+  .close {
+    width: 100px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+  }
+  
